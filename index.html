@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasquería EL BUEN ASADOR</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2b2b2b;
+            color:  rgba(255, 255, 255, 0.966);
+        }
+        .navbar {
+            background-color: #1a1a1a00;
+        }
+        .btn-custom {
+            background-color: #D29547;  
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #a32c2c18;
+        }
+        .card {
+            background-color: #1a1a1a;
+            border: none;
+        }
+        /* Ajuste del tamaño del carrusel al 50% */
+        .carousel-inner img {
+            height: 600px; /* Ajusta la altura */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cortes de Carne</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Otros</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!-- Logo y título -->
+        <div class="logo">
+            <img src="buengusto.webp" alt="Logo El Buen Asador"> <!-- Ruta de la imagen del logo -->
+            <h1>Churrasqueria El Buen Asador
+        </div>
+
+        <!-- Navegación u otros elementos si los hubiera -->
+        <nav class="nav">
+            <!-- Aquí puedes añadir más enlaces de navegación -->
+        </nav>
+    </header>
+
+</body>
+</html>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Churrasquería El Buen Asador</title>
+        <style>
+            /* Estilos para el encabezado */
+            header {
+                background-color: #333; /* Fondo oscuro para el encabezado */
+                color: white;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+    
+            /* Estilos para el logo */
+            .logo {
+                display: flex;
+                align-items: center;
+            }
+    
+            .logo img {
+                height: 50px; /* Ajustar el tamaño de la imagen */
+                margin-right: 10px; /* Espacio entre imagen y texto */
+            }
+    
+            .logo h1 {
+                font-family: 'Arial', sans-serif;
+                font-size: 24px;
+                margin: 0;
+            }
+    
+            /* Estilos para otros contenidos si es necesario */
+            .nav {
+                font-family: 'Arial', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+    
+        
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgPerdil.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="PERFIL2.webp" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="PERFIL3.1.webp" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="arg1.avif" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte Argentino</h5>
+                        <p class="card-text">El churrasco argentino se distingue por su sencillez y respeto por la calidad de la carne.</p>
+                        <p class="card-text">Es un corte fino, fibroso y lleno de sabor, La entrada se cocina rápidamente a fuego fuerte para lograr una textura crujiente por fuera y jugosa por dentro.Se sirve con poca cocción, lo que resalta su sabor profundo.</p>
+                        <a href="#" class="btn btn-custom">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">  
+                    <img src="imag.1.2.webp" class="card-img-top" alt="Producto2">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte brasileño</h5>
+                        <p class="card-text">Un corte grande y tierno que proviene de la parte trasera de la res, ideal para rebanar en porciones más pequeñas.</p>
+                        <p class="card-text">El churrasco brasileño se prepara habitualmente en un espeto (espetón), donde los cortes se asan lentamente al fuego, rotando para una cocción uniforme. Se sirve con guarniciones como farofa (harina de mandioca), arroz y vinagreta.</p>
+                        <a href="#" class="btn btn-custom">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="imag.1.3.webp" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte Español</h5>
+                        <p class="card-text">Un corte grueso y jugoso de la parte trasera de la vaca, con hueso, ideal para asar a la parrilla. Se sirve preferentemente en su punto.</p>
+                        <p class="card-text">El tipo de término como te guste: Medio, 3/4, CocidoEn la tradición española, se usa la parrilla o la plancha, con un toque de sal marina. Los cortes suelen servirse con guarniciones como pimientos asados, papas frita</p>
+                        <a href="#" class="btn btn-custom">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<style>
+     .footer {
+            background-color: #ffffff; /* Color de fondo oscuro */
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            position: relative;
+        }
+        
+</style>
+  <!-- Footer -->
+  <footer class="footer">
+    <div style="text-align: center;">
+        <p>@ Derechos Reservados 2024</p>
+    </div>
+</footer>
+</body>
+</html>
